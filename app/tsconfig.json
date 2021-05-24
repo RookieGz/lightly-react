@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "strictNullChecks": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "jsx": "react",
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "target": "es6",
+    "lib": ["dom", "es7"],
+    "declaration": true,
+    "isolatedModules": true,
+    "outDir": "./",
+    "typeRoots": ["./node_modules/@types/", "./typings"],
+    "baseUrl": ".",
+    "paths": {
+      "src/*": ["src/*"],
+      "assets/*": ["assets/*"],
+      "node_modules/*": ["node_modules/*"]
+    },
+    "module": "es2020"
+  },
+  "include": ["src", "typings"],
+  "exclude": ["node_modules", "dist"]
+}

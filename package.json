@@ -1,0 +1,19 @@
+{
+  "name": "lightly-react",
+  "version": "1.0.5",
+  "main": "./bin/index.js",
+  "license": "MIT",
+  "bin": {
+    "lightly": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "rm -rf ./test/testCli && node ./bin/index.js ./test/testCli",
+    "testStart": "cd ./app && npm run dev"
+  },
+  "keywords": [
+    "rematch",
+    "redux",
+    "react",
+    "typescript"
+  ]
+}
